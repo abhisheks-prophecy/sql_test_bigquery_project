@@ -1,7 +1,7 @@
 {
   "metainfo" : {
     "type" : "Prophecy",
-    "fabricId" : "5117",
+    "fabricId" : "5275",
     "jobId" : "jobs/AirflowPM_BQ",
     "name" : "AirflowPM_BQ",
     "dagName" : "pghReuvJdek8IkzZwbhIMw_",
@@ -23,17 +23,19 @@
       "clusterMode" : "Single"
     },
     "availableFabrics" : [ {
-      "id" : "5117",
-      "name" : "dev_airflow_pm"
-    }, {
       "id" : "4315",
       "name" : "dev_airflow"
     }, {
       "id" : "5275",
       "name" : "dev_airflow_mwaa"
+    }, {
+      "id" : "5744",
+      "name" : "asdasd",
+      "trialStartDate" : 1689227055800
     } ],
     "catchup" : true,
-    "endDate" : "2023-06-23",
+    "tags" : [ ],
+    "endDate" : "2023-08-24",
     "scheduleTimeZone" : "UTC"
   },
   "processes" : {
@@ -63,7 +65,7 @@
         "runModelWithParents" : false,
         "defer" : null,
         "noDefer" : null,
-        "runSeed" : false,
+        "runSeed" : true,
         "gitEntity" : "branch",
         "noPartialParse" : null,
         "warnErrorOptions" : null,
@@ -81,7 +83,7 @@
         "favorState" : null,
         "failFast" : null,
         "noStaticParser" : null,
-        "runTest" : true,
+        "runTest" : false,
         "select" : null,
         "recordTimingInfo" : null,
         "fullRefresh" : true,
@@ -97,7 +99,7 @@
         "models" : null,
         "target" : null,
         "exclude" : "test_excluded_job_model",
-        "runDeps" : false,
+        "runDeps" : true,
         "noAnonymousUsageStats" : null,
         "selector" : null,
         "targetPath" : null,

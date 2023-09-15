@@ -31,7 +31,6 @@ jobs:
       clusterId: null
     enabled: true
     createdAt: '2023-06-08 06:59:28'
-    modifiedAt: '2023-06-08 07:22:57'
     author: abhisheks+e2etests@prophecy.io
   jobs/AirflowGCP_BQ:
     name: AirflowGCP_BQ
@@ -55,12 +54,11 @@ jobs:
       clusterId: null
     enabled: true
     createdAt: '2023-06-08 07:08:14'
-    modifiedAt: '2023-06-08 07:23:06'
     author: abhisheks+e2etests@prophecy.io
   jobs/AirflowPM_BQ:
     name: AirflowPM_BQ
     description: ''
-    fabricUID: 5117
+    fabricUID: 5275
     scheduler:
       Prophecy: {}
     cloudProvider: null
@@ -79,12 +77,10 @@ jobs:
       clusterId: null
     enabled: true
     createdAt: '2023-06-08 07:21:39'
-    modifiedAt: '2023-06-08 07:22:50'
     author: abhisheks+e2etests@prophecy.io
 functions:
   author: null
   createdAt: '2023-06-08 06:17:31'
-  modifiedAt: '2023-06-08 06:17:31'
   gems: {}
   udfs: {}
   udafs: {}
@@ -171,7 +167,6 @@ sqlModels:
       models: []
       datasets: []
     createdAt: '2023-06-08 06:26:00'
-    modifiedAt: '2023-06-08 06:26:00'
   .prophecy/metadata/sqlmodels/test_bigquery_use_all_mainp:
     name: test_bigquery_use_all_mainp
     schema:
@@ -252,7 +247,6 @@ sqlModels:
       models: []
       datasets: []
     createdAt: '2023-06-08 06:43:03'
-    modifiedAt: '2023-06-08 06:43:03'
   .prophecy/metadata/sqlmodels/test_excluded_job_model:
     name: test_excluded_job_model
     schema:
@@ -333,7 +327,6 @@ sqlModels:
       models: []
       datasets: []
     createdAt: '2023-06-08 07:00:34'
-    modifiedAt: '2023-06-08 07:00:34'
 sqlMacros: {}
 sqlSeeds: {}
 sqlSources:
@@ -344,7 +337,6 @@ sqlSources:
     files:
     - prophecy-sources/sources.yml
     createdAt: '2023-06-08 06:41:18'
-    modifiedAt: '2023-06-08 06:41:18'
     tables:
     - name: hundred_rows_table
       schema:
@@ -356,7 +348,6 @@ sqlSources:
       description: null
       author: abhisheks+e2etests@prophecy.io
       createdAt: '2023-06-08 06:41:18'
-      modifiedAt: '2023-06-08 06:41:18'
   .prophecy/metadata/sqlsources/prophecy-qa_qa_test_dataset:
     name: prophecy-qa.qa_test_dataset
     description: null
@@ -364,7 +355,6 @@ sqlSources:
     files:
     - prophecy-sources/sources.yml
     createdAt: '2023-06-08 06:41:06'
-    modifiedAt: '2023-06-08 06:41:06'
     tables:
     - name: all_type_table
       schema:
@@ -439,14 +429,12 @@ sqlSources:
       description: null
       author: abhisheks+e2etests@prophecy.io
       createdAt: '2023-06-08 06:41:06'
-      modifiedAt: '2023-06-08 06:41:06'
 sqlUnreferencedSources: {}
 sqlPipeline:
   name: sqlPipeline
   description: null
   author: abhisheks+e2etests@prophecy.io
   createdAt: '2023-06-08 06:17:31'
-  modifiedAt: '2023-06-08 06:17:31'
 dependencies: '[]'
 projectDependencies: {}
 pipelineConfigurations: {}
