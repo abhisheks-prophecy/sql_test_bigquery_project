@@ -78,10 +78,13 @@ jobs:
     enabled: true
     createdAt: '2023-06-08 07:21:39'
     author: abhisheks+e2etests@prophecy.io
+gemContainer:
+  languageVersion: ''
+  gemLibsVersion: ''
+  gems: {}
 functions:
   author: null
   createdAt: '2023-06-08 06:17:31'
-  gems: {}
   udfs: {}
   udafs: {}
   expressions: {}
